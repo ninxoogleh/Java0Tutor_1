@@ -1,0 +1,9 @@
+public class Solution_1_4 {
+    public static void main(String[] args) {
+        int time = 123456;
+        int h = (int) time/3600;
+        int m = (int) time%3600/60;
+        int s = time - (h*3600 + m*60);
+        System.out.println(h+"ч "+m+"мин "+s+"с.");
+	  }
+}
