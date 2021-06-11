@@ -3,5 +3,5 @@ public class Solution_1_4 {
         double a = 111.222;
         String [] meta = Double.toString(a).split("\\.");
         System.out.println(Double.parseDouble(meta[1]+"."+meta[0]));        
-	  }
+    }
 }
