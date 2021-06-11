@@ -14,5 +14,5 @@ public class Solution_1_1 {
         } catch (IOException e) {
             System.out.println("error");
         }
-	}
+    }
 }
