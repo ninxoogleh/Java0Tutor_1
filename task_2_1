@@ -1,0 +1,23 @@
+import java.io.*;
+
+public class Solution_2_1 {
+    public static void main(String[] args) {
+		try {
+            BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
+            int a = Integer.parseInt(rd.readLine());
+            int b = Integer.parseInt(rd.readLine());
+
+            if (a <= 0 || b <= 0 || (a+b) >= 180) {
+                System.out.println("треугольник не существует.");
+            } else {
+                System.out.print("треугольник существует и ");
+                if (a == 90 || b == 90 || (180-(a+b)) == 90) {
+                    System.out.println("является прямоугольным.");
+                } else {
+                    System.out.println("не является прямоугольным.");
+                }
+            }
+
+        } catch (Exception e) {}
+	  }
+}
