@@ -17,5 +17,5 @@ public class Solution_1_6 {
 
             System.out.println(result);
         } catch (Exception e) {}
-	  }
+    }
 }
