@@ -1,0 +1,11 @@
+public class Solution_3_3 {
+    public static void main(String[] args) {
+        int res = 0;
+		    for (int i=0; i<200; i++) {
+            res *= i*i;
+        }
+        System.out.println(res);
+	  }
+}
+/* классная задача. Начал даже в BigInteger 
+лезть пока не сообразил что счет начинается с 0. */
