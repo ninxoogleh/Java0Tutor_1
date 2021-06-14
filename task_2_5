@@ -1,0 +1,12 @@
+public class Solution_2_5 {
+    public static void main(String[] args) {
+
+        double x = 0.0, y = 0.0;
+		
+        if (x<=3) {
+            y = Math.pow(x,2) - 3*x + 9;
+        } else {
+            y = 1/(Math.pow(x,3) + 6);
+        }
+	}
+}
