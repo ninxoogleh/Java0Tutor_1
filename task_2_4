@@ -1,0 +1,15 @@
+public class Solution_2_4 {
+
+    public static void main(String[] args) {
+
+        double a = 0.0, b = 0.0, x = 0.0, y = 0.0, z = 0.0;
+        boolean isFit = false;
+		
+        if (a==x || a==y || a==z) {
+            if (b==x || b==y || b==z) {
+                isFit = true;
+            }
+        }
+        System.out.println(isFit);
+	}
+}
