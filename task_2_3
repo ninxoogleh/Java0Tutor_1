@@ -8,5 +8,5 @@ public class Solution_2_3 {
             isLine = true;
         }
         System.out.println(isLine);
-	  }
+    }
 }
