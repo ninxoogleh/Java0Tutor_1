@@ -1,0 +1,9 @@
+public class Solution_3_2 {
+    public static void main(String[] args) {
+		int a=0, b=10, h=2, res=0;
+
+        for (int x=a; x<=b; x+=h) {
+            if (x<=2) {res = x;} else {res = -1*x;}
+        }
+	}
+}
