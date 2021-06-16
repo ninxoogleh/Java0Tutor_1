@@ -1,0 +1,8 @@
+public class Solution_3_8 {
+    public static void main(String[] args) {
+		   int a=12345, b=67890;
+
+       char[] digits_1 = Integer.toString(a).toCharArray();
+       char[] digits_2 = Integer.toString(b).toCharArray();
+	  }
+}
